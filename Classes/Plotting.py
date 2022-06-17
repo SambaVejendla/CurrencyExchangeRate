@@ -7,7 +7,7 @@ class Plotting:
     def Plot1(self):
         seb.set()
         plot.style.use('seaborn-whitegrid')
-        data = pnd.read_csv("USDCAD=X.csv")
+        data = pnd.read_csv("USD-CAD=X.csv")
         print(data.head())
         plot.figure(figsize=(15, 6))
         plot.title("USD - CAD Exchange Rate")
